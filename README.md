@@ -1,4 +1,76 @@
-# Company Communicator App Template
+# Microsoft Teams Company Communicator — implementação na Casa Flora
+
+Este repositório registra minha participação na implantação do **Microsoft Teams
+Company Communicator** na **Casa Flora**, como parte da evolução da comunicação
+corporativa no ecossistema Microsoft 365.
+
+O objetivo foi disponibilizar no Teams um canal mais padronizado para a criação e
+o envio de comunicados internos, complementando os meios de comunicação já
+utilizados pela empresa. Minha atuação esteve concentrada na implementação
+técnica, configuração, validação, suporte à operação e adoção da solução pelas
+áreas envolvidas.
+
+> Este é um fork do template open source originalmente mantido pela Microsoft.
+> Informações sensíveis, nomes de usuários, identificadores do tenant,
+> credenciais e configurações internas da Casa Flora não fazem parte deste
+> repositório.
+
+## Escopo da implementação
+
+- Preparação e implantação dos aplicativos do Company Communicator no
+  **Microsoft Teams**, contemplando a experiência de autores e destinatários.
+- Configuração dos aplicativos no ambiente de **Teams Apps** da organização.
+- Configuração do **Azure Bot** utilizado pela solução para interação e entrega
+  das mensagens no Teams.
+- Integração da aplicação com o ambiente **Microsoft 365 e Azure**.
+- Validação do fluxo de criação, pré-visualização e envio de comunicados.
+- Apoio técnico à operação e à adoção da ferramenta pelas áreas usuárias.
+- Troubleshooting durante a implantação, com verificação das configurações do
+  aplicativo, do bot, das permissões e dos componentes hospedados no Azure.
+
+## Visão da solução
+
+```mermaid
+flowchart LR
+    A[Autores no Microsoft Teams] --> B[Company Communicator]
+    B --> C[Aplicação hospedada no Azure]
+    C --> D[Azure Bot]
+    D --> E[Microsoft Teams]
+    E --> F[Colaboradores e grupos destinatários]
+```
+
+A solução combina duas frentes principais:
+
+| Camada | Papel na implementação |
+| --- | --- |
+| Microsoft Teams | Interface utilizada pelos autores e canal de entrega aos destinatários |
+| Teams Apps | Publicação e disponibilização dos pacotes da aplicação no ambiente corporativo |
+| Azure Bot | Comunicação entre a aplicação e os usuários do Teams |
+| Microsoft Azure | Hospedagem e execução dos componentes de aplicação do template |
+| Microsoft 365 | Identidade, permissões e integração com o ambiente corporativo |
+
+## Resultado profissional
+
+A entrega colocou em funcionamento uma solução corporativa integrada ao Teams e
+apoiou a padronização dos comunicados internos. O projeto também consolidou, em
+um cenário real, conhecimentos de infraestrutura e sustentação aplicados a
+Microsoft 365, Teams, Azure, identidade, permissões, implantação e diagnóstico
+de aplicações corporativas.
+
+## Tecnologias e competências demonstradas
+
+`Microsoft Teams` · `Teams Apps` · `Microsoft Azure` · `Azure Bot` ·
+`Microsoft 365` · `identidade e permissões` · `implantação` · `troubleshooting` ·
+`documentação` · `adoção de solução`
+
+## Sobre o template original
+
+O conteúdo abaixo corresponde à documentação base do projeto **Company
+Communicator App Template**, preservada como referência técnica.
+
+---
+
+## Company Communicator App Template
 
 [Architecture](https://github.com/OfficeDev/microsoft-teams-company-communicator-app/wiki/Solution-overview) | [Documentation](https://github.com/OfficeDev/microsoft-teams-company-communicator-app/wiki) | [Deployment guide powershell](https://github.com/OfficeDev/microsoft-teams-company-communicator-app/wiki/Deployment-guide-powershell)  |[Deployment guide](https://github.com/OfficeDev/microsoft-teams-company-communicator-app/wiki/Deployment-guide) | [User manual](https://github.com/OfficeDev/microsoft-teams-apps-company-communicator/wiki/User-manual) | 
 | ---- | ---- | ---- | ---- | ---- |
