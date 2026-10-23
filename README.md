@@ -3,6 +3,8 @@
 
 [![Capa da implantação do Company Communicator na Casa Flora](linkedin-cover-company-communicator-casa-flora.jpg)](linkedin-cover-company-communicator-casa-flora.jpg)
 
+[Prévia para o LinkedIn](https://soteropolitano.github.io/microsoft-teams-apps-company-communicator/linkedin-preview-v2/)
+
 Este repositório registra minha participação na implantação do **Microsoft Teams
 Company Communicator** na **Casa Flora**, como parte da evolução da comunicação
 corporativa no ecossistema Microsoft 365.
