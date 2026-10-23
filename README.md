@@ -1,5 +1,8 @@
 # Microsoft Teams Company Communicator — implementação na Casa Flora
 
+
+[![Capa da implantação do Company Communicator na Casa Flora](linkedin-cover-company-communicator-casa-flora.jpg)](linkedin-cover-company-communicator-casa-flora.jpg)
+
 Este repositório registra minha participação na implantação do **Microsoft Teams
 Company Communicator** na **Casa Flora**, como parte da evolução da comunicação
 corporativa no ecossistema Microsoft 365.
